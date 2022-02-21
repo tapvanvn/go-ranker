@@ -1,0 +1,14 @@
+{
+    "MemDB":{
+        "Type":"redis",
+        "ConnectionString":"192.168.1.4:6379",
+        "Prefix":"rank"
+    },
+    "DocumentDB":{
+        "Provider":"mongodb",
+        "ConnectionString":"mongodb:/\/127.0.0.1",
+        "DatabaseName": "project",
+        "CollectionName": "ranking"
+    },
+    "TableSize": 1000
+}
